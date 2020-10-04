@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/animate.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+    <title>Affbooster Connect</title>
+</head>
+
+
+
+<body id="main">
+    <nav class="navbar navbar-expand-lg fixed">
+        <div class="nav-relative">
+            <div class="toggleLinks-block" style="position: relative">
+                <a class="navbar-brand" href="#main">
+                    <picture>
+                        <source media="(max-width: 992px)" srcset="./img/afflogo-symboll@2x.png">
+                        <img src="./img/affboost-logo@2x.png" class="header-logo" alt="">
+                    </picture>
+                </a>
+                <div id="toggleLinks">
+                    <div class="yellow-new newContent">NEW</div>
+                    <img src="./img/arrow.svg" alt="">
+                </div>
+            </div>
+            <div class="nav-absolute" style="display: none">
+                <a class="navbar-brand connect" href="https://affbooster.io/connect">
+                    <picture>
+                        <source media="(max-width: 992px)" srcset="./img/affboost-logo@2x.png">
+                        <img src="./img/afflogo-c@2x.png" class="header-logo" alt="">
+                    </picture>
+                    <div class="yellow-new conn">NEW</div>
+                </a>
+                <a class="navbar-brand automation" href="https://automation.affbooster.io/">
+                    <picture>
+                        <source media="(max-width: 992px)" srcset="">
+                        <img src="./img/afflogo-auto@2x.png" class="header-logo" alt="">
+                    </picture>
+                    <div class="yellow-new autom">NEW</div>
+                </a>
+            </div>
+        </div>
+        <button class="pull-left navbar-toggler" type="button" onclick="openNav()" id="main2">
+            <span class="navbar-toggler-icon"></span>
+            <div class="blue-line"></div>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0" id="menu">
+                <li class="nav-item ">
+                    <a class="nav-link" href="#whatIsIt">Продукты <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#chips">Стоимость</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#review" tabindex="-1" aria-disabled="true">Отзывы</a>
+                </li>
+            </ul>
+            <a href="https://connect.affbooster.io/register"><button class="btn btn-outline-primary my-2 my-sm-0">Присоединиться</button></a>
+        </div>
+        <div id="mySidebar" class="sidebar">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0" id="menu2">
+                <a class="navbar-brand connect pt-3" href="https://affbooster.io/connect">
+                    <picture>
+                        <source media="(max-width: 992px)" srcset="./img/afflogo-c@2x.png">
+                        <img src="./img/afflogo-c@2x.png" class="barImg" alt="">
+                    </picture>
+                    <div class="yellow-new conn">NEW</div>
+                </a>
+                <a class="navbar-brand automation pt-3" href="https://automation.affbooster.io/">
+                    <picture>
+                        <source media="(max-width: 992px)" srcset="">
+                        <img src="./img/afflogo-auto@2x.png" class="barImg" alt="">
+                    </picture>
+                    <div class="yellow-new autom">NEW</div>
+                </a>
+                <li class="nav-item mt-3">
+                    <a class="nav-link" href="#whatIsIt">Продукты <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#chips">Стоимость</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#review" tabindex="-1" aria-disabled="true">Отзывы</a>
+                </li>
+            </ul>
+            <a href="https://connect.affbooster.io/register"><button class="btn btn-outline-primary my-2 my-sm-0">Присоединиться</button></a>
+        </div>
+
+    </nav>
+    <header class="fullscrean-bg">
+        <video id="video" autoplay="autoplay" preload="none" muted="muted" loop="true" style="display:none; position: absolute;top: 0; left: 0px; z-index: -100; min-width:100%;min-height:100%; width: auto; height: auto;">
+            <source src="./video/space(f).mp4" type="video/mp4">
+            <!--<source src="./video/space(f).ogv" type="video/ogg">
+            <source src="./video/space(f).webm" type="video/webm">-->
+            <source src="./video/space(f).m4v" type="video/m4v">
+        </video>
+        <div>
+            <h3 class="tlt">
+                <ul class="texts">
+                    <li class="h1">Медиабаер?</li>
+                    <li class="h1">Арбитражник?</li>
+                    <li> Тимлид?</li>
+                </ul>
+            </h3>
+            <p>Экосистема‌ ‌инструментов‌ ‌для‌ ‌специалистов,‌ ‌работающих‌ ‌с‌ ‌платным‌ ‌трафиком‌ ‌(PPC)‌</p>
+            <a href="https://connect.affbooster.io/register"><div class="btn btn-primary button">Стать частью комьюнити</div></a>
+        </div>
+    </header>
+
+    <section class="s0" id="whatIsIt">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-7 px-0 col-md-12">
+                    <img src="./img/pic.png" loading="lazy" alt="">
+                </div>
+                <div class="col-lg-5 col-md-12">
+                    <div class="content">
+                        <h2>Affbooster Сonnect?</h2>
+                        <p>Закрытое‌ ‌комьюнити‌ ‌медиабаеров,‌ ‌участники‌ ‌которого‌ ‌генеруриют‌ ‌до‌ ‌ХХХ.ХХХ‌ ‌$‌ ‌каждый‌ месяц.‌ ‌Повышай‌ ‌свой‌ ‌уровень‌ ‌знаний‌ ‌и‌ ‌навыков,‌ ‌обмениваясь‌ ‌опытом‌</p>
+                        <a href="https://affbooster.io/connect"><div class="btn btn-primary button">Подробнее</div></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="s1">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-5 col-md-12">
+                    <div class="content">
+                        <h2>Affbooster Automation</h2>
+                        <p>Автоматизированные‌ ‌решения‌ ‌для‌ ‌более‌ ‌качественной‌ ‌и‌ ‌продуктивной‌ ‌работы‌ ‌с‌ ‌Facebook‌ ‌Ads. ‌Заливай‌ ‌в‌ ‌одиночку,‌ ‌как‌ ‌небольшая‌ ‌команда‌ ‌медиабаеров‌</p>
+                        <a href="https://automation.affbooster.io/"><div class="btn btn-primary button mb-5">Подробнее</div></a>
+                    </div>
+                </div>
+                <div class="col-lg-7 px-0 col-md-12">
+                    <img src="./img/group.png" loading="lazy" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="s2" id="chips">
+        <div class="title">Сервисов становится больше — цена остается прежней!</div>
+        <div class="propose">
+            <div class="propose-block-buy propose-block">
+                <div class="propose-block-title">CONNECT +</div>
+                <div class="propose-block-price">
+                    <div class="euro">€</div>
+                    <div class="price-value">
+                        <div class="big-price">49</div>
+                        <div class="small-price">
+                            <span>99</span>
+                            <div class="mth">/мес</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="propose-block-priceText">
+                    доступ к <br><span class="strong">Affbooster Connect</span> <br>
+                    <span class="plus">+</span> <br>
+                    <span class="strong"> Affbooster Automation</span>
+                </div>
+                <div class="propose-block-info">
+                    <div class="how-many">150</div>
+                    <div class="how-many-info">заливок <br>в месяц*</div>
+                </div>
+                <div class="propose-block-info-text">
+                    *Возможность докупить заливки в любой момент
+                </div>
+                <a href="https://connect.affbooster.io/register">
+                    <button class="propose-block-btn" >
+                        Присоединиться
+                    </button>
+                </a>
+            </div>
+            <div class="propose-block propose-block-content">
+                <div class="propose-block-content-info">
+                    <div class="propose-block-content-info-cont">
+                        <img src="img/1q.png" alt="">
+                        <span class="text">Читай авторские статьи от практиков, а не наемных редакторов</span>
+                    </div>
+                    <div class="propose-block-content-info-cont">
+                        <img src="img/3q.png" alt="">
+                        <span class="text">Заливай сотни рекламных кабинетов всего в пару кликов с нужными тебе настройками и автоправилами на борту</span>
+                    </div>
+                </div>
+                <div class="propose-block-content-info">
+                    <div class="propose-block-content-info-cont">
+                        <img src="img/2q.png" alt="">
+                        <span class="text">Создавай обсуждения и обменивайся опытом с другими участниками</span>
+                    </div>
+                    <div class="propose-block-content-info-cont">
+                        <img src="img/4q.png" alt="">
+                        <span class="text">Стань премиум участником и окружи себя лучшими профессионалам в онлайне и на встречах в офлайне</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="s3" id="review">
+        <div class="container" id="end">
+            <div class="row align-items-center justify-content-center">
+                <div class="col-lg-7  col-md-8 col-sm-12">
+                    <div class="about">
+                        <picture>
+                            <source media="(min-width: 769px)" srcset="./img/sputnik@2x.jpg">
+                            <img src="" alt="">
+                        </picture>
+
+                        <h2 class="h1">О нас говорят</h2>
+
+                    </div>
+                </div>
+                <div class="col-lg-5 col-md-8 col-sm-12">
+                    <div class="card" style="border: none;">
+                        <img src="./img/img1.png" alt="" class="img1">
+
+                        <div id="carouselExampleControls" class="carousel slide carousel-fade" data-ride="carousel" data-interval="5000">
+
+                            <ol class="carousel-indicators">
+                                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                            </ol>
+                            <div class="w-100 carousel-inner" role="listbox">
+                                <div class="carousel-item active">
+                                    <p class="comment">Ставь лайк, если ждёшь Аффбустера больше, чем Игру Престолов</p>
+                                    <div class="com-photo">
+                                    <div class="com-img">
+                                        <img src="./img/1.png" class="avatar" alt="">
+                                        <img src="./img/top.svg" class="top" alt="">
+                                    </div>
+                                    <p class="name">
+                                        Артем Кравченко <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+                                            <g fill="none" fill-rule="evenodd">
+                                                <path fill="#4C71F3" d="M8 14.883l-2.07.844-1.371-1.766-2.216-.304-.304-2.216-1.766-1.37L1.117 8 .273 5.93l1.766-1.371.304-2.216L4.56 2.04 5.929.273 8 1.117l2.07-.844 1.371 1.766 2.216.304.304 2.216 1.766 1.37L14.883 8l.844 2.07-1.766 1.371-.304 2.216-2.216.304-1.37 1.766z" />
+                                                <path fill="#FFF" d="M7.652 10.254l3.877-3.796a.547.547 0 0 0 0-.794.6.6 0 0 0-.824 0L7.034 9.262 5.696 7.886a.6.6 0 0 0-.825 0 .546.546 0 0 0 0 .794l1.544 1.574a.888.888 0 0 0 .619.246.886.886 0 0 0 .618-.246z" />
+                                            </g>
+                                        </svg>
+
+                                    </p>
+                                    <p class="grey">гуру арбитража</p>
+
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <p class="comment">Здесь может быть ваш комментарий</p>
+                                    <div class="com-photo">
+                                    <div class="com-img">
+                                        <img src="./img/ava1.png" class="avatar" alt="">
+                                    </div>
+                                    <p class="name">
+                                        Пользователь 
+                                    </p>
+                                    <p class="grey">гость affBooster</p>
+
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="float-left navi">
+                               <a class="nx" href="#carouselExampleControls" role="button" data-slide="next">
+                                    <div class="arrows">
+                                        <span class="carousel-control-prev-icon ico" aria-hidden="true"></span>
+                                        <span class="sr-only">Next</span>
+                                    </div>
+                                </a>
+                                <a class="fst" href="#carouselExampleControls" role="button" data-slide="prev">
+                                    <div class="arrows">
+                                        <span class="carousel-control-next-icon ico" aria-hidden="true"></span>
+                                        <span class="sr-only">Previous</span>
+                                    </div>
+                                </a>
+                                
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="s4">
+        <div class="content">
+            <h2>Здесь‌ ‌начинают‌ ‌зарабатывать‌ ‌больше</h2>
+            <a href="https://connect.affbooster.io/register"><div class="button"><span>Присоединиться</span></div></a>
+        </div>
+        <div class="buble1"></div>
+        <div class="buble2"></div>
+        <picture>
+            <source media="(min-width: 769px)" srcset="./img/spaceship.png">
+            <img src="" class="ship" alt="">
+        </picture>
+        <picture>
+            <source media="(min-width: 769px)" srcset="./img/spaceman.png">
+            <img src="" class='man' alt="">
+        </picture>
+
+    </section>
+    <footer>
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-3 col-md-8 footer-logo">
+                    <img src="./img/afflogo-copy@2x.jpg" class="logo" alt="">
+                    <p class="rights">@ All rights reserved</p>
+                </div>
+                <div class="col-lg-6 col-md-8">
+                    <div class="icons">
+                        <a href="https://vk.com/affbooster">
+                            <div class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="10" viewBox="0 0 16 10">
+                                    <path fill="#4C71F3" fill-rule="evenodd" d="M15.633.643c.111-.37 0-.643-.53-.643h-1.75c-.445 0-.65.235-.761.495 0 0-.89 2.17-2.152 3.58-.408.407-.593.537-.816.537-.11 0-.272-.13-.272-.5V.642c0-.445-.129-.643-.5-.643h-2.75c-.279 0-.446.207-.446.402 0 .422.63.52.695 1.706v2.578c0 .565-.102.668-.324.668-.593 0-2.037-2.18-2.893-4.673C2.966.196 2.798 0 2.351 0H.6C.1 0 0 .235 0 .495c0 .464.594 2.763 2.763 5.804C4.21 8.376 6.247 9.502 8.102 9.502c1.113 0 1.25-.25 1.25-.68v-1.57c0-.5.106-.6.458-.6.26 0 .705.13 1.743 1.13 1.187 1.188 1.383 1.72 2.05 1.72h1.75c.5 0 .75-.25.606-.743-.157-.492-.724-1.206-1.476-2.052-.408-.482-1.02-1.001-1.205-1.26-.26-.334-.186-.483 0-.78 0 0 2.132-3.004 2.355-4.024" />
+                                </svg>
+                            </div>
+                        </a>
+<!--
+                        <a href="#">
+                            <div class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="9" height="16" viewBox="0 0 9 16">
+                                    <path fill="#4C71F3" fill-rule="evenodd" d="M2.668 16V8.683H0V5.884h2.668V3.772C2.668 1.339 4.256 0 6.606 0 7.73 0 8.718.073 9 .107v2.579H7.329c-1.278 0-1.517.56-1.517 1.386v1.812H8.87l-.398 2.799h-2.66V16h-3.15.006z" />
+                                </svg>
+                            </div>
+                        </a>
+-->
+                        <a href="https://t.me/affbooster_chat">
+                            <div class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+                                    <path fill="#4C71F3" fill-rule="evenodd" d="M12.256 15.58c.215.18.491.224.738.114.247-.111.428-.36.483-.662.579-3.217 1.984-11.359 2.512-14.285a.682.682 0 0 0-.174-.597.471.471 0 0 0-.531-.11C12.489 1.261 3.88 5.077.36 6.616c-.223.097-.368.35-.361.629.008.279.167.52.395.602 1.578.557 3.65 1.333 3.65 1.333s.968 3.454 1.472 5.21c.064.221.21.395.402.455a.517.517 0 0 0 .54-.163l2.065-2.303s2.381 2.063 3.732 3.2zm-7.34-6.835l1.12 4.362.248-2.762 6.79-7.236a.248.248 0 0 0 .022-.297c-.06-.09-.169-.112-.25-.05l-7.93 5.983z" />
+                                </svg></div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-8">
+                    <div class="policy-block">
+                        <a href="./ToS.html">
+                            <p>Политика приватности</p>
+                        </a>
+                        <a href="#">
+                            <p>Сообщить об ошибке</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+           <script src="script/jquery.lettering.js"></script>
+    <script src="script/jquery.textillate.min.js"></script>
+        <script>
+        $('.tlt').textillate({
+                initialDelay: 0,
+                minDisplayTime: 1000,
+                in: {
+                    effect: 'fadeIn',
+                    delay: 100
+                },
+                out: {
+                    effect: 'fadeOut',
+                    deley: 100
+                },
+                autoStart: true,
+                callback: function() {
+                    setTimeout(() => {
+                        $('.tlt').textillate('out')
+                        setTimeout(() => {
+                            $('.tlt').textillate('start')
+                        }, 500)
+                    }, 1000)
+                }
+            }
+
+        );
+
+    </script>
+    <script>
+        $(document).ready(function() {
+            let connect =localStorage.getItem('connect')
+            let automation = localStorage.getItem('automation')
+            automation ? $('.autom').hide() : $('.autom').show()
+            connect ? $('.conn').hide() : $('.conn').show()
+            automation && connect ? $('.newContent').hide() : $('.newContent').show()
+            if ($(window).width() > 576) {
+                $('video').fadeIn(500);
+                $('video').attr('preload', 'auto')
+            }
+            $(window).scroll(function() {
+                if ($(window).scrollTop() > $('#whatIsIt').offset().top) {
+                    $('video').get(0).pause()
+                } else {
+                    $('video').get(0).play()
+                }
+            })
+        })
+
+    </script>
+    <script>
+
+        $('#toggleLinks').on('click', function () {
+            $('.nav-absolute').css("display") === 'none' ? $('.nav-absolute').css({'display': 'block'}) : $('.nav-absolute').css({'display': 'none'})
+        })
+        $('.connect').on('click',function () {
+            window.location = 'https://affbooster.io/connect'
+            localStorage.setItem('connect', true)
+        })
+        $('.automation').on('click',function () {
+            window.location = 'https://automation.affbooster.io'
+            localStorage.setItem('automation', true)
+        })
+        /* Set the width of the sidebar to 250px and the left margin of the page content to 250px */
+        function openNav() {
+            $('.yellow-new').hide()
+            $('#mySidebar').css("width") === "0px" ? opn() : cls()
+        }
+
+        function opn() {
+            document.getElementById("mySidebar").style.width = "280px"
+            let connect =localStorage.getItem('connect')
+            let automation = localStorage.getItem('automation')
+            console.log(connect, automation)
+            //newContent, autom, conn
+            automation ? $('.autom').hide() : $('.autom').show(500)
+            connect ? $('.conn').hide() : $('.conn').show(500)
+            $('.navbar-toggler').addClass('blue-border')
+        }
+        function cls() {
+            document.getElementById("mySidebar").style.width = "0px"
+            $('.navbar-toggler').removeClass('blue-border')
+        }
+
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.5.8/lottie.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="./script/script.js"></script>
+</body>
+</html>
